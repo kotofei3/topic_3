@@ -1,6 +1,6 @@
-line = ...  # здесь Ваш код
-num = ...  # здесь Ваш код
+line = input('Введите строку:')
+num = int(input('Введите число:'))
 
-result = ...  # здесь Ваш код
+result = sep = '\n'
 
-print(...)  # допишите код
+print(line * num, result)
