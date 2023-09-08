@@ -3,6 +3,4 @@ age = int(input('Введите ваш возраст:'))
 
 greeting = sep = '!'
 
-print("Привет,", name, greeting, "Тебе уже", age, "лет!")
-
-# Вывод не соответствует!
+print("Привет,", name + greeting, "Тебе уже", age, "лет!")

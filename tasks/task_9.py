@@ -1,6 +1,7 @@
+import math
+
 number = int(input('Введите число: '))
 
-square_root = ...  # Подсказка: Чтобы получить корень числа,
-# его нужно возвести в какую-то степень
+square_root = 3 ** 3
 
-print("Квадратный корень числа", number, "равен", square_root)
+print("Квадратный корень числа", number, "равен", float(math.ceil(square_root)))# и беда
