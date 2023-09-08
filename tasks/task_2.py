@@ -3,6 +3,3 @@ num = int(input('Введите число:'))
 
 result = '\n'
 print((line + result) * num)
-
-
-
