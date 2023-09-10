@@ -1,19 +1,5 @@
-# Что если хотим перевести 25.5 градусов Цельсия в Фаренгейты?
-# А так в целом программа работает, молодцы!
-# celsius = int(input('Введите температуру в градусах Цельсия: '))
-#
-# fahrenheit = float(celsius) * 1.8 + 32
-#
-# print("Температура по Фаренгейту:", fahrenheit)
+celsius = float(input('Введите температуру в градусах Цельсия: '))
 
-# celsius = float(int(input('Введите температуру в градусах Цельсия: ')))
-#
-# fahrenheit = celsius * 1.8 + 32
-#
-# print("Температура по Фаренгейту:", fahrenheit) и не раболтает
+fahrenheit: float = celsius * 1.8 + 32
 
-celsius = int(float(input('Введите температуру в градусах Цельсия: ')))
-
-fahrenheit = celsius * 1.8 + 32
-
-print("Температура по Фаренгейту:", fahrenheit)# только если так
+print("Температура по Фаренгейту:", fahrenheit)
